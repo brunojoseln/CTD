@@ -1,0 +1,22 @@
+body{
+    background-color: #DFD7B9;
+}
+
+h1, h2{
+    color: #1726AD;
+}
+
+header div{
+    background-color: #1726AD;
+    color:#8988BC
+}
+
+footer h2{
+    color: #333344;
+}
+
+footer ul{
+    background-color: #333333;
+    color: #DFD7AC;
+    list-style: none;
+}
