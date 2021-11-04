@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    background-color: salmon;
+    width: 300px;
+    padding: 25px ;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    padding: 25px;
+    text-align: justify;
+    font-weight: bold;
+    background-color: rgba(104, 104, 104, 0.3);
+    border-radius: 30px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+a{
+    background-color: sandybrown;
+    display: block;
+    text-align: center;
+    padding: 30px;
+}
