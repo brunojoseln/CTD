@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.square{
+    width: 200px;
+    height: 200px;
+    background-color: salmon;
+    margin-bottom: 12px;
+}
+
+.first-square{
+    background-color: dodgerblue;
+    position: relative;
+    right: 0px;
+}
+
+.second-square{
+    background-color: violet;
+    position: relative;
+    top: -212px;
+    /* right: calc(100px - 90%) ; */
+    left: calc(-200px + 100%)
+}
+.third-square{
+    background-color: wheat;
+    position: relative;
+    right: calc(100px - 50%);
+}
