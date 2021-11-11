@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://cdn.diariodesuzano.com.br/upload/dn_noticia/2017/08/portal-geral-suzano-arquivo1.jpg);
+    background-position: 0px 0px;
+    background-size: 2000px;
+}
+
+.banner-boas-vindas{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Righteous';
+    font-size: 50px;
+    background-color: rgba(76, 134, 182, 0.3);
+    padding: 15px;
+    width: fit-content;
+    text-align: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+main p {
+    font-size: 25px;
+    color: white;
+    padding: 50px;
+    margin-top: 80px;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    border: 500px;
+    font-family: Play;
+}
+
+.video{
+    margin-top: 50px;
+    text-align: center;
+}
+
+main h2{
+    text-align: center;
+    margin: 50px;
+    font-size: 35px;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-weight: bold;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 50px;
+
+}
+
+
+.lista{
+    background-color: rgba(192, 192, 192, 0.87);
+    padding: 30px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li::before {
+    content: "• ";
+    color: rgb(0, 0, 0);
+  }
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+.links{
+    text-align: center;
+}
+img{
+    margin-top: 50px;
+    width: 72px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
