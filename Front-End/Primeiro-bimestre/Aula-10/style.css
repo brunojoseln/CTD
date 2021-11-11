@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    background-image: url('https://1.bp.blogspot.com/-NUIx2Sa2KWo/UEeZZzgIaMI/AAAAAAAACak/vaHLidqR5wg/s1600/light_teal_pattern.jpg');
+}
+
+
+img{
+    width: 8%;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+p{
+    font-size: 30px;
+}
+
