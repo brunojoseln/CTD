@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <main>
+        <form action="">
+            😔👉👈
+
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <h1>Cadastro de Usuário</h1>
+                <label for="username">Nome</label>
+                <input type="text" name="username" id="username"></br>
+    
+                <label for="userPassword">Senha</label>
+                <input type="password" name="userPassword" id="userPassword"></br>
+    
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email"></br>
+    
+                <label for="userText">Depoimento</label>
+                <textarea name="userText" id="userText" cols="30" rows="10"></textarea></br>
+                <label for="userPlan">Plano</label>
+                <select name="userPlan" id="userPlan">
+                   <option value="1">Básico</option>
+                   <option value="2">Médio</option>
+                   <option value="3">VIP</option> 
+                </select></br>
+            </fieldset>
+
+        
+            <h1>Pagamento</h1>
+            <div>
+                <input type="radio" name="payment" id="credito">
+                <label for="credito">Crédito</label>
+
+
+                <input type="radio" name="payment" id="debito">
+                <label for="debito">Débito</label>
+
+
+                <input type="radio" name="payment" id="bill">
+                <label for="bill">Boleto</label>
+
+            </div>
+
+            <div>
+                <h1>Entrega</h1>
+
+                <input type="radio" name="tax" id="empresaX">
+                <label for="empresaX">Empresa X</label>
+
+                <input type="radio" name="tax" id="empresaY" checked>
+                <label for="empresaY">Empresa Y</label>
+
+                <input type="radio" name="tax" id="empresaZ">
+                <label for="empresaZ">Empresa Z</label>
+
+            </div>
+
+            <div>
+                <h1>Entrega</h1>
+
+                <input type="checkbox" name="recomended" id="FirstProduct">
+                <label for="FirstProduct">Fone de Ouvido</label>
+
+                <input type="checkbox" name="recomended" id="SecondProduct">
+                <label for="SecondProduct">Carregador</label>
+            </div>
+
+            <button type="submit">Cadastrar</button>
+            <button type="reset">Limpar</button>
+        </form>
+    </main>
+</body>
+</html>
