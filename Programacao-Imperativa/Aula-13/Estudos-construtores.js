@@ -1,4 +1,4 @@
-//Criaçao de um objto
+//Criaçao de um objeto
 let pessoas = {
     nome: 'Maria',
     anoNascimento: 1800,
