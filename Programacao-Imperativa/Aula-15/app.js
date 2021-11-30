@@ -10,11 +10,14 @@ function ContaBancaria(numero,tipo,saldo,titular){
     titularConta = titular
 }
 
+let joao = new ContaBancaria(0002,'poupança',1000,"joao da silva")
+
 //3. Criação dinamica de array de objetos
 let arrayObjPessoas = []
 
 for (let i = 0; i < arrayPessoas.length; i++) {
-    arrayObjPessoas.push(new ContaBancaria(
+    arrayObjPessoas.push(
+        new ContaBancaria(
         arrayPessoas[i].numero, arrayPessoas[i].tipo, arrayPessoas[i].saldo, arrayPessoas[i].titular));
 
 }
