@@ -1,5 +1,3 @@
-let alunos = JSON.stringify(alunos)
-
 //Crie um objeto aluno que tenha como atributos: nome (string), quantidade de faltas (number) e notas (array de números). Crie um construtor para ele e importe-o como o módulo aluno.
 
 function Aluno(nome, qtdFaltas, notas){
@@ -12,7 +10,7 @@ function Aluno(nome, qtdFaltas, notas){
 
     this.calcularMedia = 
         this.notas.reduce((acc,num)=> {
-            return acc+num;
+            return acc+num/this.notas.lenght;
         })
 
     this.adicionarFalta = () => {
@@ -20,6 +18,7 @@ function Aluno(nome, qtdFaltas, notas){
     }
 
 }
+
 
 function Curso(nomeCurso, notaApr, faltaMax, listaAlunos = []){
     this.nomeCurso = nomeCurso;
@@ -32,23 +31,12 @@ function Curso(nomeCurso, notaApr, faltaMax, listaAlunos = []){
     };
 
     this.aprovado = (nome) => {
-        let aluno = this.listaAlunos.find((procuraAluno) => x.nome === nome);
+        let aluno = this.listaAlunos.find((procuraAluno) => procuraAluno.nome === nome);
 
         return (
             (aluno.media >= this.notaApr && aluno.qtdFaltas < this.faltas) || 
             (aluno.qtdFaltas === this.faltaMax && aluno.media >= this.notaApr * 1.1)
         );
-    };
-
-    this.listaAprovados{
-        return this.listaAlunos.map((item =>{
-            return (
-                (aluno.media >= this.notaApr && aluno.qtdFaltas < this.faltas) || 
-                (aluno.qtdFaltas === this.faltaMax && aluno.media >= this.notaApr * 1.1)
-            );
-        });
-    };
-
+        
+    }
 }
-
-console.log()

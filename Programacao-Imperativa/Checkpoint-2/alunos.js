@@ -5,3 +5,6 @@ alunos = [
     { nome: "Mathues Praxedes", qtdFaltas: 0,notas: [7,5,9]},
     { nome: "Moises Bollela", qtdFaltas: 2,notas: [7,5,9]},
 ]
+
+console.log(JSON.stringify(alunos))
+module.exports = alunos;
