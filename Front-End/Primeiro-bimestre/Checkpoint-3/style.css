@@ -25,7 +25,7 @@ div a img{
     border-radius: 20px;
 }
 
-main h1{
+#catalogo{
     margin-top: 20px;
     margin-bottom: 40px;
     text-align: center;
@@ -76,6 +76,31 @@ footer div hr{
     display: block;
 }
 
+.h1-filme{
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2{
+    margin: 30px 0px;
+}
+
+.banner-shrek2{
+    background-image: url('https://1.bp.blogspot.com/-JjFYvCgjp2A/X1fULOsy4LI/AAAAAAAAJJk/6rafo_-k3f4oPF2-dPtVZNVfwnF4U-EugCLcBGAsYHQ/s1600/IMG_20200519_143217.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 600px;
+}
+
+.banner-forrest{
+    background-image: url('https://images5.alphacoders.com/483/thumb-1920-483981.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 600px;
+}
+
 @media (max-width: 767px){
     .banner{
         display: none;
@@ -85,7 +110,7 @@ footer div hr{
         margin-top: 100px;
     }
 
-    header{
+    .main-header{
         margin-top: -100px;
     }
 
