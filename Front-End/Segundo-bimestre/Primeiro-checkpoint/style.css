@@ -30,11 +30,14 @@ div img{
     background-size: cover;
 }
 
+.card-img-top{
+    width: 400px;
+}
+
 div .col{
     background-color: rgb(151, 151, 151);
     text-align: center;
     padding: 15px;
-
     border: 1px solid lightgray;
     border-radius: 20px;
 }
@@ -50,10 +53,4 @@ p{
 
 footer{
     background-color:  #f9f9fb
-}
-
-@media (max-width: 767px){  
-    img{
-        width: 100%;
-    }
 }
