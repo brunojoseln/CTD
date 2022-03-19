@@ -22,7 +22,12 @@ div{
 }
 
 div img{
-    height: 300px;
+    width: 400px;
+    min-height: 120px;
+    max-height: auto;
+    margin: 3px;
+    padding: 3px;
+    background-size: cover;
 }
 
 div .col{
@@ -45,4 +50,10 @@ p{
 
 footer{
     background-color:  #f9f9fb
+}
+
+@media (max-width: 767px){  
+    img{
+        width: 100%;
+    }
 }

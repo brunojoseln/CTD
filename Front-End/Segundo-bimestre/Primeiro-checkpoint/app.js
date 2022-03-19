@@ -10,7 +10,7 @@ function cadastro(){
 
     let template = `
     <div class="col">
-                <img src="${url}" alt="Fusca">
+                <img src="${url}" alt="${nome}">
                 <h1>${nome}</h1>
 
                 <p>Carroceria: ${carroceria}</p>
