@@ -1,5 +1,5 @@
 body{
-    background-image: url(https://th.bing.com/th/id/OIP.fgnMrB_kD1FeLkpOWdHfNQHaHa?pid=ImgDet&rs=1);
+    background-image: url("https://th.bing.com/th/id/OIP.fgnMrB_kD1FeLkpOWdHfNQHaHa?pid=ImgDet&rs=1");
     
 }
 
@@ -22,22 +22,14 @@ div{
 }
 
 div img{
-    width: 400px;
-    min-height: 120px;
-    max-height: auto;
-    margin: 3px;
-    padding: 3px;
-    background-size: cover;
+    height: 300px;
 }
 
-.card-img-top{
-    width: 400px;
-}
-
-div .col{
+.carros-card{
     background-color: rgb(151, 151, 151);
     text-align: center;
     padding: 15px;
+
     border: 1px solid lightgray;
     border-radius: 20px;
 }
